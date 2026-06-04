@@ -1,68 +1,68 @@
-body {
-  background: #f0f4f8;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 500px;
-  margin: 50px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  color: black;
+.app-container {
   text-align: center;
-  margin-bottom: 20px;
+  font-family: Arial;
+  padding: 20px;
 }
 
-h3 {
-  color: black;
-  margin-top: 20px;
+.main-title {
+  margin-bottom: 10px;
 }
 
-input {
-  padding: 10px;
-  width: 70%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
+.todo-wrapper {
+  width: 420px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px lightgray;
+  border-radius: 10px;
+  text-align: left;
 }
 
-button {
-  padding: 10px 15px;
-  margin-left: 5px;
-  border: none;
-  border-radius: 5px;
-  background: #007bff;
-  color: white;
+.side-title {
+  margin-bottom: 15px;
+  border-left: 5px solid blue;
+  padding-left: 10px;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 8px;
+}
+
+.input-box button {
+  padding: 8px 12px;
   cursor: pointer;
 }
 
-button:hover {
-  background: #0056b3;
-}
-
-ul {
+.todo-list {
   list-style: none;
   padding: 0;
-  margin-top: 20px;
 }
 
-li {
-  background: #eee;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 5px;
+.todo-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
 }
 
-li button {
-  margin-left: 5px;
+.task-text {
+  flex: 1;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
 }
