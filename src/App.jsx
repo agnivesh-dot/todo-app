@@ -7,7 +7,7 @@ function App() {
   const [editId, setEditId] = useState(null);
   const [editTask, setEditTask] = useState("");
 
-  const API_URL = "http://localhost:5000/todos";
+  const API_URL = "https://your-render-url.onrender.com/todos";
 
   // GET - Load todos
   useEffect(() => {
